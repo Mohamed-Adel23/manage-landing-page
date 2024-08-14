@@ -28,7 +28,22 @@
                 <a href="#" 
                     class="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full 
                     hover:bg-brightRedLight">Get Started</a>
+                <!-- Hamburger Menue -->
+                <button id="menue-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
             </div>
+            <!-- Mobile Menue -->
+             <div class="md:hidden">
+                <div id="menue" class="absolute flex flex-col items-center self-end hidden py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                    <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+                    <a href="#" class="hover:text-darkGrayishBlue">Product</a>
+                    <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
+                    <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+                    <a href="#" class="hover:text-darkGrayishBlue">Comunity</a>
+                </div>
+             </div>
         </nav>
     </header>
 
@@ -269,5 +284,7 @@
               </div>
         </div>
        </footer>
+
+       <script src="js/main.js"></script>
 </body>
 </html>
